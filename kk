@@ -22,3 +22,10 @@ else:
 print("\nИтоговый список:")
 for student in students:
     print(student)
+
+search = input("\nВведите имя студента для поиска: ")
+
+if search in students:
+    print("Студент найден!")
+else:
+    print("Студент не найден.")
