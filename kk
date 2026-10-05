@@ -1,2 +1,7 @@
-print('hello world')
-print("Новое задание")
+students = []
+
+print("Система управления студентами")
+
+print("Список студентов:")
+for student in students:
+    print(student)
