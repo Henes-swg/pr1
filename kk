@@ -2,6 +2,12 @@ students = []
 
 print("Система управления студентами")
 
-print("Список студентов:")
+name = input("Введите имя студента: ")
+
+students.append(name)
+
+print("\nСтудент добавлен!")
+
+print("\nСписок студентов:")
 for student in students:
     print(student)
